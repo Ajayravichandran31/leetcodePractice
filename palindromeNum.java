@@ -1,4 +1,4 @@
-class Solution {
+class palindromeNum {
     public boolean isPalindrome(int x) {
         int t=x;
         int res=0;
