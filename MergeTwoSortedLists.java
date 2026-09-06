@@ -54,21 +54,21 @@ public class MergeTwoSortedLists {
         System.out.println();
     }
 
-    public static void main(String[] args) {
-        Solution solution = new Solution();
-\
-        ListNode list1 = createList(new int[]{1, 2, 4});
-        ListNode list2 = createList(new int[]{1, 3, 4});
+   public static void main(String[] args) {
+    MergeTwoSortedLists solution = new MergeTwoSortedLists();
 
-        System.out.print("List 1: ");
-        printList(list1);
+    ListNode list1 = createList(new int[]{1, 2, 4});
+    ListNode list2 = createList(new int[]{1, 3, 4});
 
-        System.out.print("List 2: ");
-        printList(list2);
+    System.out.print("List 1: ");
+    printList(list1);
 
-        ListNode mergedList = solution.mergeTwoLists(list1, list2);
+    System.out.print("List 2: ");
+    printList(list2);
 
-        System.out.print("Merged List: ");
-        printList(mergedList);
-    }
+    ListNode mergedList = solution.mergeTwoLists(list1, list2);
+
+    System.out.print("Merged List: ");
+    printList(mergedList);
+}
 }
