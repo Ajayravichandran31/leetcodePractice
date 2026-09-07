@@ -1,5 +1,4 @@
 import java.util.Arrays;
-
 public class SearchInsertPosition {
     public static void main(String[] args) {
         Solution solution = new Solution();
