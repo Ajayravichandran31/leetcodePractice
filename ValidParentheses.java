@@ -4,16 +4,15 @@ public class ValidParentheses {
     public static void main(String[] args) {
         Solution solution = new Solution();
 
-        // Test cases
         String s1 = "()";
         String s2 = "()[]{}";
         String s3 = "(]";
         String s4 = "([])";
 
-        System.out.println("s1 valid: " + solution.isValid(s1)); // true
-        System.out.println("s2 valid: " + solution.isValid(s2)); // true
-        System.out.println("s3 valid: " + solution.isValid(s3)); // false
-        System.out.println("s4 valid: " + solution.isValid(s4)); // true
+        System.out.println("s1 valid: " + solution.isValid(s1)); 
+        System.out.println("s2 valid: " + solution.isValid(s2)); 
+        System.out.println("s3 valid: " + solution.isValid(s3)); 
+        System.out.println("s4 valid: " + solution.isValid(s4)); 
     }
 }
 
