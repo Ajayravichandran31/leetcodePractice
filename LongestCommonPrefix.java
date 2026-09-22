@@ -1,7 +1,7 @@
-public class LongestCommonPrefix {
+public class longestCommonPrefix {
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        FindXValueOfArrayII solution = new FindXValueOfArrayII();
         String[] test1 = {"flower", "flow", "flight"};
         System.out.println("Test 1 Output: \"" + solution.longestCommonPrefix(test1) + "\""); 
         String[] test2 = {"dog", "racecar", "car"};
