@@ -23,4 +23,4 @@ public class ScoreOfParentheses {
         System.out.println(solver.scoreOfParentheses("(())"));
         System.out.println(solver.scoreOfParentheses("()()"));
     }
-}
+}   
